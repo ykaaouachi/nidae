@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Nidae</name>
-    <description>Nidae El watane</description>
+    <description>Nidae El watane.</description>
     <author email="ykaaouachi@gmail.com" href="http://phonegap.com">Youssef KAAOUACHI by PhoneGap </author>
     <content src="http://www.nidaelwatan.ma/community_app/" />
     <preference name="permissions" value="none" />
