@@ -28,7 +28,7 @@ var app = {
     bindEvents: function () {
         document.addEventListener('deviceready', this.onDeviceReady, false);
         $('a').each(function(){
-           $(this).attr('href', "javascript:parent.openNew("+$(this).attr("href")+")") 
+           $(this).attr('href', "javascript:alert(123)") 
         });
         /*document.addEventListener('click', function(e) {
           if (e.srcElement.target === "_blank" && e.srcElement.href.indexOf("#phonegap=external") === -1) {
