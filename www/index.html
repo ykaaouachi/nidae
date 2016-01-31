@@ -43,9 +43,9 @@
             app.initialize();
         </script>
         <script type="text/javascript">
-            $(function(){
-                alert("Yoooopi");
-            });
+            function openNew(link) {
+                navigator.app.loadUrl(link, { 'openExternal' : true });
+            }
         </script>
     </body>
 </html>
