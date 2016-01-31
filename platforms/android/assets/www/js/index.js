@@ -18,15 +18,18 @@
  */
 var app = {
     // Application Constructor
-    initialize: function() {
+    initialize: function () {
         this.bindEvents();
     },
     // Bind Event Listeners
     //
     // Bind any events that are required on startup. Common events are:
     // 'load', 'deviceready', 'offline', and 'online'.
-    bindEvents: function() {
+    bindEvents: function () {
         document.addEventListener('deviceready', this.onDeviceReady, false);
+        $('a').each(function(){
+           $(this).attr('href', "javascript:alert(123)") 
+        });
         /*document.addEventListener('click', function(e) {
           if (e.srcElement.target === "_blank" && e.srcElement.href.indexOf("#phonegap=external") === -1) {
             e.srcElement.href = e.srcElement.href + "#phonegap=external";
@@ -53,6 +56,6 @@ var app = {
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
 
-        console.log('Received Event: ' + id);
+        alert('Received Event: ' + id);
     }
 };

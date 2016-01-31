@@ -9,10 +9,14 @@
         <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
         <param name="onload" value="true" />
     </feature>
+    <description>Nidae El watane</description>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
     <allow-intent href="market:*" />
     <name>Nidae</name>
-    <description>Nidae El watane</description>
-    <author email="ykaaouachi@gmail.com" href="http://phonegap.com">Youssef KAAOUACHI by PhoneGap </author>
+    <description>Nidae El watane.</description>
+    <author email="ykaaouachi@gmail.com" href="http://www.nidaelwatan.ma/">Youssef KAAOUACHI by PhoneGap </author>
     <content src="http://www.nidaelwatan.ma/community_app/" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
