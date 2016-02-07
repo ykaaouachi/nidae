@@ -29,7 +29,7 @@ module.exports.metadata =
 {
     "cordova-plugin-whitelist": "1.2.1",
     "cordova-plugin-splashscreen": "3.1.0",
-    "cordova-plugin-inappbrowser": "1.2.0"
+    "cordova-plugin-inappbrowser": "1.2.2-dev"
 }
 // BOTTOM OF METADATA
 });
